@@ -50,7 +50,7 @@
     ],
     "imageResize": true,
     "publishChangesOnly": true,
-    "uniqCompNum": 2,
+    "uniqCompNum": 3,
     "versionPublish": "5.9.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/all-in-one-rundes-icon-transparent.webp",
@@ -1542,9 +1542,87 @@
           },
           "_name": "apeople2",
           "_sourceTheme": "calmm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people1 calmm5\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"5\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container-fluid':fullWidth, 'container-small': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Εδώ θα βρείτε μερικούς από τους πελάτες μας:</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n                Orci eu lobortis elementum nibh tellus molestie.\n                Enim lobortis scelerisque fermentum dui faucibus in ornare quam.\n            </h4>\n        </div>\n        <div class=\"row card-row\">\n            <div class=\"card\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-new-helliniko-hotel-354x336.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 1\">\n                <img src=\"@PROJECT_PATH@/assets/images/evritosvillas-e1680804402496-272x106.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 2\">\n                <img src=\"@PROJECT_PATH@/assets/images/sitelogo-231x81.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 3\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-170x170.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 4\">\n                <img src=\"@PROJECT_PATH@/assets/images/e50ab538-8a16-407f-bced-386618485c16-336x177.png\" alt=\"Mobirise Website Builder\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people1 calmm5\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"5\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container-fluid':fullWidth, 'container-small': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Εδώ θα βρείτε μερικούς από τους πελάτες μας:</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n                Orci eu lobortis elementum nibh tellus molestie.\n                Enim lobortis scelerisque fermentum dui faucibus in ornare quam.\n            </h4>\n        </div>\n        <div class=\"row card-row\">\n            <div class=\"card\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-new-helliniko-hotel-354x336.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 1\">\n                <img src=\"@PROJECT_PATH@/assets/images/evritosvillas-e1680804402496-272x106.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 2\">\n                <img src=\"@PROJECT_PATH@/assets/images/sitelogo-231x81.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 3\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-170x170.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 4\">\n                <img src=\"@PROJECT_PATH@/assets/images/e50ab538-8a16-407f-bced-386618485c16-336x177.png\" alt=\"Mobirise Website Builder\">\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tBopgRUUzh",
           "_anchor": "apeople2-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-head": {
+              "margin-bottom": "50px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "20px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#131313",
+              "a": {
+                "pointer-events": "none"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "margin-top": "12px",
+              "color": "#131313"
+            },
+            ".card-row": {
+              "justify-content": "space-between",
+              "align-items": "center",
+              "flex-wrap": "nowrap",
+              "margin": "0 !important",
+              "& when (@showBorder)": {
+                "padding-bottom": "40px",
+                "border-bottom": "2px solid @borderColor"
+              },
+              "@media (max-width: 991px)": {
+                "justify-content": "center",
+                "row-gap": "16px",
+                "flex-wrap": "wrap"
+              }
+            },
+            ".card": {
+              "transition": "all 0.3s",
+              "height": "fit-content",
+              "padding": "0 !important",
+              "opacity": "0.5",
+              "margin-bottom": "1rem",
+              "max-width": "20%",
+              "width": "fit-content",
+              "@media (max-width: 991px)": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "min-height": "50px",
+                "max-width": "(100% / 3)",
+                "margin": "0 20px"
+              },
+              "@media (max-width: 767px)": {
+                "max-width": "(100% / 2)"
+              },
+              "@media (max-width: 575px)": {
+                "max-width": "100%"
+              },
+              "&:hover": {
+                "opacity": "1"
+              },
+              "img": {
+                "max-width": "100%"
+              }
+            }
+          },
+          "_name": "apeople2",
+          "_sourceTheme": "calmm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people1 calmm5\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"5\" value=\"3\" step=\"1\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container-fluid':fullWidth, 'container-small': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Εδώ θα βρείτε μερικούς από τους πελάτες μας:</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n                Orci eu lobortis elementum nibh tellus molestie.\n                Enim lobortis scelerisque fermentum dui faucibus in ornare quam.\n            </h4>\n        </div>\n        <div class=\"row card-row\">\n            <div class=\"card\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-filoxenia-monemvasia-327x99.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 1\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-greece-confidential-1.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 2\">\n                <img src=\"@PROJECT_PATH@/assets/images/orea-homes-logo-compressed-462x291.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 3\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-170x170.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 4\">\n                <img src=\"@PROJECT_PATH@/assets/images/e50ab538-8a16-407f-bced-386618485c16-336x177.png\" alt=\"Mobirise Website Builder\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "apeople2-2",
+          "_isUserblock": true,
+          "_cid": "tYmb0Ua7cq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
