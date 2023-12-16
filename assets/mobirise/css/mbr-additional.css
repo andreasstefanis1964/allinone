@@ -1628,9 +1628,6 @@ strong {
 .cid-tBon8M64Sx .iconfont-wrapper {
   text-align: center;
 }
-.cid-tWVg5pVKi1 {
-  z-index: 1;
-}
 .cid-tBonvYox3R {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1680,8 +1677,8 @@ strong {
 .cid-tBonvYox3R .item-wrapper {
   width: 100%;
   padding: 11px 11px 40px;
-  border: 2px solid #131313;
-  box-shadow: 4px 4px 0 #131313;
+  border: 2px solid #ff9466;
+  box-shadow: 4px 4px 0 #ff9466;
   background: #ffffff;
   transition: .3s all;
 }
