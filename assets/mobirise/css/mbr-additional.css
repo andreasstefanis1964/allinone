@@ -2270,6 +2270,7 @@ strong {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
+  background: linear-gradient(to right top, #ffffff, #ff9466);
 }
 .cid-tYJQvcwft1 .plan-body .btn-bgr {
   z-index: 0;
@@ -2363,11 +2364,11 @@ strong {
   border: 0;
   background: transparent;
 }
-.cid-tYJQvcwft1 .plan:nth-child(2) .plan-title {
+.cid-tYJQvcwft1 .plan:nth-child(4) .plan-title {
   background-color: #62cab1;
 }
-.cid-tYJQvcwft1 .plan:nth-child(2) .plan-header,
-.cid-tYJQvcwft1 .plan:nth-child(2) .plan-body {
+.cid-tYJQvcwft1 .plan:nth-child(4) .plan-header,
+.cid-tYJQvcwft1 .plan:nth-child(4) .plan-body {
   background-color: #ffffff;
 }
 .cid-tYJQvcwft1 .plan .mbr-section-btn {
