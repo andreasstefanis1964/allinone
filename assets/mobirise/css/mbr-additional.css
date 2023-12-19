@@ -2310,7 +2310,7 @@ strong {
 }
 .cid-tYUkKEdqfn .nav-tabs .btn.active,
 .cid-tYUkKEdqfn .nav-tabs .btn:hover {
-  background: #ed4266 !important;
+  background: #ef5311 !important;
   color: #ffffff !important;
 }
 @media (min-width: 768px) {
@@ -2330,7 +2330,7 @@ strong {
   width: 35px;
   height: 3px;
   display: inline-block;
-  background: #ed4266;
+  background: #ef5311;
   transition: background 0.3s;
   margin-bottom: 1.5rem;
 }
