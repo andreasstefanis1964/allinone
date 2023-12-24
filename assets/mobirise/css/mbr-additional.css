@@ -1319,6 +1319,13 @@ strong {
 .cid-tBomRGn5Ms .mbr-section-btn .btn-white:hover {
   color: #fc7942 !important;
 }
+.cid-tBomRGn5Ms P {
+  color: #ffffff;
+}
+.cid-tBomRGn5Ms .mbr-text,
+.cid-tBomRGn5Ms .mbr-section-btn {
+  color: #f2f3f7;
+}
 .cid-tZ0OVyqghi {
   padding-top: 6rem;
   padding-bottom: 2rem;
