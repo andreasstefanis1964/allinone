@@ -1251,13 +1251,33 @@ strong {
     transition: 0.1s all;
   }
 }
-.cid-tBomRGn5Ms {
-  background-image: url("../../../assets/images/pexels-rostislav-uzunov-5011647.webp");
+.cid-tZmiwODb0O {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/background2.webp");
 }
-.cid-tBomRGn5Ms .mbr-fallback-image.disabled {
+.cid-tZmiwODb0O .mbr-section-title {
+  color: #000000;
+}
+.cid-tZmiwODb0O .mbr-text,
+.cid-tZmiwODb0O .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-tZmiwODb0O .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-tZmiwODb0O .mbr-text2 {
+  border-top: 2px solid #000000;
+  padding-top: 4rem;
+}
+.cid-tZmiwODb0O .mbr-text2,
+.cid-tZmiwODb0O .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-tZmiwODb0O .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tBomRGn5Ms .mbr-fallback-image {
+.cid-tZmiwODb0O .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1265,66 +1285,6 @@ strong {
   height: 100%;
   position: absolute;
   top: 0;
-}
-.cid-tBomRGn5Ms .col-title {
-  padding-top: 5.5%;
-}
-@media (max-width: 991px) {
-  .cid-tBomRGn5Ms .col-title {
-    padding-top: 0;
-  }
-}
-.cid-tBomRGn5Ms .col-text {
-  padding-top: 100px;
-}
-@media (min-width: 1200px) {
-  .cid-tBomRGn5Ms .col-text {
-    padding-left: 110px !important;
-  }
-}
-@media (max-width: 1199px) {
-  .cid-tBomRGn5Ms .col-text {
-    padding-top: 70px;
-  }
-}
-@media (max-width: 991px) {
-  .cid-tBomRGn5Ms .col-text {
-    padding-top: 20px;
-  }
-}
-.cid-tBomRGn5Ms .mbr-section-title {
-  margin-bottom: 0;
-  color: #232323;
-}
-.cid-tBomRGn5Ms .mbr-section-subtitle {
-  margin-top: 24px;
-  color: #131313;
-}
-@media (max-width: 991px) {
-  .cid-tBomRGn5Ms .mbr-section-subtitle {
-    margin-top: 16px;
-  }
-}
-.cid-tBomRGn5Ms .mbr-text {
-  color: #131313;
-}
-.cid-tBomRGn5Ms .mbr-section-btn {
-  margin-top: 50px;
-}
-@media (max-width: 1199px) {
-  .cid-tBomRGn5Ms .mbr-section-btn {
-    margin-top: 14px;
-  }
-}
-.cid-tBomRGn5Ms .mbr-section-btn .btn-white:hover {
-  color: #fc7942 !important;
-}
-.cid-tBomRGn5Ms P {
-  color: #ffffff;
-}
-.cid-tBomRGn5Ms .mbr-text,
-.cid-tBomRGn5Ms .mbr-section-btn {
-  color: #f2f3f7;
 }
 .cid-tZ0OVyqghi {
   padding-top: 6rem;
