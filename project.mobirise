@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "websites.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -4893,10 +4893,10 @@
         }
       ]
     },
-    "page2.html": {
+    "websites.html": {
       "settings": {
         "title": "All in One ΙΣΤΟΣΕΛΙΔΕΣ",
-        "meta_descr": "Συνδρομές για ξενοδοχεία All in One LIGHT cloud PMS, channel manager, Booking engine",
+        "meta_descr": "Κατασκευή ιστοσελιδες για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
