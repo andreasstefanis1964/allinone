@@ -5224,6 +5224,45 @@ strong {
   color: #303030;
   margin-top: 10px;
 }
+.cid-u2SWLx1pKN {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f6f6f6;
+}
+.cid-u2SWLx1pKN .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u2SWLx1pKN .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u2SWLx1pKN .cards-row {
+  row-gap: 50px;
+}
+.cid-u2SWLx1pKN .card-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.cid-u2SWLx1pKN .mbr-iconfont {
+  font-size: 82px;
+  color: #9b8db7;
+}
+.cid-u2SWLx1pKN .card-box {
+  padding-left: 28px;
+}
+.cid-u2SWLx1pKN .card-title {
+  color: #303030;
+}
+.cid-u2SWLx1pKN .card-text {
+  color: #303030;
+  margin-top: 10px;
+}
 .cid-u2SNbWi6J9 {
   padding-top: 4rem;
   padding-bottom: 4rem;
