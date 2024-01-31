@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page4.html",
+    "currentPage": "websites.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -5389,7 +5389,7 @@
         }
       ]
     },
-    "page4.html": {
+    "Channel manager.html": {
       "settings": {
         "title": "All in One Channel manager",
         "meta_descr": "Κατασκευή ιστοσελιδες για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
