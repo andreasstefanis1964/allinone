@@ -59,7 +59,7 @@
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/aio-kreis-transparent-128x130.png",
-    "mbrsiteDomain": "bfgkvmdbzf",
+    "mbrsiteDomain": "iq58t0u4ij",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -76,7 +76,7 @@
       "opacityOverlay": "0",
       "bgOpacity": "100",
       "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-      "textButton": "GOT IT",
+      "textButton": "AΠΟΔΟΧΗ",
       "rejectText": "REJECT"
     },
     "gdpr": {
