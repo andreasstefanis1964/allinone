@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "websites.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -59,7 +59,7 @@
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/aio-kreis-transparent-128x130.png",
-    "mbrsiteDomain": "5qzh3mwy17",
+    "mbrsiteDomain": "tivhlybpqw",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
