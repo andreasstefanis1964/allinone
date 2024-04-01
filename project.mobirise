@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "websites.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -2154,7 +2154,7 @@
     "websites.html": {
       "settings": {
         "title": "All in One ΙΣΤΟΣΕΛΙΔΕΣ",
-        "meta_descr": "Κατασκευή ιστοσελιδες για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
+        "meta_descr": "Κατασκευή ιστοσελίδων για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -3777,7 +3777,7 @@
     "page3.html": {
       "settings": {
         "title": "All in One PMS LIGHT",
-        "meta_descr": "Κατασκευή ιστοσελιδες για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
+        "meta_descr": "Ξενοδοχειακό λογισμικό PMS και για βίλες, διαμερίσματα με myDATA",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -5653,7 +5653,7 @@
     "Channel manager.html": {
       "settings": {
         "title": "All in One Channel manager",
-        "meta_descr": "Κατασκευή ιστοσελιδες για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
+        "meta_descr": "Channel manager σύνδεση online πόρταλ για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -6805,7 +6805,7 @@
     "page4.html": {
       "settings": {
         "title": "All in One VR Multi Properties",
-        "meta_descr": "Κατασκευή ιστοσελιδες για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
+        "meta_descr": "Λογισμικό διαχείρισης κρατήσεων για διαχειριστές με πολλαπλά καταλύματα",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
