@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -123,7 +123,7 @@
       "settings": {
         "main": true,
         "title": "All in One Digital Technologies for Hotels, BnB, vacation rentals",
-        "meta_descr": "All in One ψηφιακές τεχνολογίες (PMS, channel manager, booking engine) για ξενοδοχεία, βιλες, διαμερίσματα, διαχειριστές πολλαπλών καταλυμάτων",
+        "meta_descr": "All in 1 digital ψηφιακές τεχνολογίες (PMS, channel manager, booking engine) για ξενοδοχεία, βιλες, διαμερίσματα, διαχειριστές πολλαπλών καταλυμάτων",
         "header_custom": "<meta name=\"google-site-verification\" content=\"5KnajENuPIg0PhQTyxv0hVJWPdGLWVKeIWW9FWSr8Dc\" />",
         "footer_custom": "",
         "html_before": ""
