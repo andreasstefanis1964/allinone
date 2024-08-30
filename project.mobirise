@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "cloud-pms-for-hotels-bnb-rentals.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -59,7 +59,7 @@
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "puyvfb9iye",
+    "mbrsiteDomain": "myog2ddhns",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -116,13 +116,14 @@
       "currency": "EUR",
       "popupProduct": true
     },
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "site_lang": "el"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "All in One Digital Technologies for Hotels, BnB, vacation rentals",
+        "title": "Digital Technologies Hotels, vacation rentals",
         "meta_descr": "All in 1 digital ψηφιακές τεχνολογίες (PMS, channel manager, booking engine) για ξενοδοχεία, βιλες, διαμερίσματα, διαχειριστές πολλαπλών καταλυμάτων",
         "header_custom": "<meta name=\"google-site-verification\" content=\"5KnajENuPIg0PhQTyxv0hVJWPdGLWVKeIWW9FWSr8Dc\" />",
         "footer_custom": "",
