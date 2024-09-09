@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "pms-for-multi-properties-bnb-administrators.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -3922,26 +3922,6 @@
           "_params": {}
         },
         {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "safe": {
-            "id": 21336,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAyG\"></div>"
-          },
-          "_cid": "u2SNbX5XIc",
-          "_anchor": "eb-chats-widget-3q",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
-          "_params": {}
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -5227,26 +5207,6 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "safe": {
-            "id": 21336,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAyG\"></div>"
-          },
-          "_cid": "u2TFezQ48q",
-          "_anchor": "eb-chats-widget-4h",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
           "_params": {}
         },
         {
@@ -7106,26 +7066,6 @@
           "_params": {}
         },
         {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "safe": {
-            "id": 21336,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAyG\"></div>"
-          },
-          "_cid": "u2TcW2RkG9",
-          "_anchor": "eb-chats-widget-44",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
-          "_params": {}
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -8823,26 +8763,6 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "safe": {
-            "id": 21336,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAyG\"></div>"
-          },
-          "_cid": "u2Y2V2nbLE",
-          "_anchor": "eb-chats-widget-5j",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
           "_params": {}
         },
         {
