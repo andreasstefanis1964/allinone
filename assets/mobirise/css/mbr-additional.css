@@ -827,11 +827,14 @@ strong {
 .mbr-section-btn .btn-black:hover {
   box-shadow: none !important;
 }
-.cid-tBom1Dnp1f .navbar-dropdown {
-  position: relative !important;
+.cid-tBom1Dnp1f {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
 }
-.cid-tBom1Dnp1f .navbar-dropdown {
-  position: absolute !important;
+.cid-tBom1Dnp1f nav.navbar {
+  position: fixed;
 }
 .cid-tBom1Dnp1f .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -934,7 +937,8 @@ strong {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
   border: none !important;
   box-shadow: none !important;
   overflow: hidden;
@@ -1149,6 +1153,7 @@ strong {
 }
 .cid-tBom1Dnp1f .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-tBom1Dnp1f a.nav-link {
   display: flex;
@@ -1231,9 +1236,6 @@ strong {
   }
   .cid-tBom1Dnp1f .navbar-short .navbar-brand {
     min-height: 75px !important;
-  }
-  .cid-tBom1Dnp1f .navbar.opened {
-    background: rgba(255, 255, 255, 0) !important;
   }
   .cid-tBom1Dnp1f .navbar.navbar-short {
     background-color: #ffffff !important;
@@ -2696,11 +2698,14 @@ strong {
 .cid-tBop9AZP21 .mbr-text {
   color: #131313;
 }
-.cid-u2SNbRlbPI .navbar-dropdown {
-  position: relative !important;
+.cid-u2SNbRlbPI {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
 }
-.cid-u2SNbRlbPI .navbar-dropdown {
-  position: absolute !important;
+.cid-u2SNbRlbPI nav.navbar {
+  position: fixed;
 }
 .cid-u2SNbRlbPI .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -2803,7 +2808,8 @@ strong {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
   border: none !important;
   box-shadow: none !important;
   overflow: hidden;
@@ -3018,6 +3024,7 @@ strong {
 }
 .cid-u2SNbRlbPI .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-u2SNbRlbPI a.nav-link {
   display: flex;
@@ -3100,9 +3107,6 @@ strong {
   }
   .cid-u2SNbRlbPI .navbar-short .navbar-brand {
     min-height: 75px !important;
-  }
-  .cid-u2SNbRlbPI .navbar.opened {
-    background: rgba(255, 255, 255, 0) !important;
   }
   .cid-u2SNbRlbPI .navbar.navbar-short {
     background-color: #ffffff !important;
@@ -3962,11 +3966,14 @@ strong {
 .cid-u2SNbXdsqh .mbr-text {
   color: #131313;
 }
-.cid-u2TFexHiV4 .navbar-dropdown {
-  position: relative !important;
+.cid-u2TFexHiV4 {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
 }
-.cid-u2TFexHiV4 .navbar-dropdown {
-  position: absolute !important;
+.cid-u2TFexHiV4 nav.navbar {
+  position: fixed;
 }
 .cid-u2TFexHiV4 .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -4069,7 +4076,8 @@ strong {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
   border: none !important;
   box-shadow: none !important;
   overflow: hidden;
@@ -4284,6 +4292,7 @@ strong {
 }
 .cid-u2TFexHiV4 .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-u2TFexHiV4 a.nav-link {
   display: flex;
@@ -4366,9 +4375,6 @@ strong {
   }
   .cid-u2TFexHiV4 .navbar-short .navbar-brand {
     min-height: 75px !important;
-  }
-  .cid-u2TFexHiV4 .navbar.opened {
-    background: rgba(255, 255, 255, 0) !important;
   }
   .cid-u2TFexHiV4 .navbar.navbar-short {
     background-color: #ffffff !important;
@@ -4981,11 +4987,14 @@ strong {
 .cid-u2TFezW5pH .mbr-text {
   color: #131313;
 }
-.cid-u2TcW14wvm .navbar-dropdown {
-  position: relative !important;
+.cid-u2TcW14wvm {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
 }
-.cid-u2TcW14wvm .navbar-dropdown {
-  position: absolute !important;
+.cid-u2TcW14wvm nav.navbar {
+  position: fixed;
 }
 .cid-u2TcW14wvm .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -5088,7 +5097,8 @@ strong {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
   border: none !important;
   box-shadow: none !important;
   overflow: hidden;
@@ -5303,6 +5313,7 @@ strong {
 }
 .cid-u2TcW14wvm .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-u2TcW14wvm a.nav-link {
   display: flex;
@@ -5385,9 +5396,6 @@ strong {
   }
   .cid-u2TcW14wvm .navbar-short .navbar-brand {
     min-height: 75px !important;
-  }
-  .cid-u2TcW14wvm .navbar.opened {
-    background: rgba(255, 255, 255, 0) !important;
   }
   .cid-u2TcW14wvm .navbar.navbar-short {
     background-color: #ffffff !important;
@@ -6491,11 +6499,14 @@ strong {
 .cid-u2TcW2XzQh .mbr-text {
   color: #131313;
 }
-.cid-u2Y2UYZWKN .navbar-dropdown {
-  position: relative !important;
+.cid-u2Y2UYZWKN {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
 }
-.cid-u2Y2UYZWKN .navbar-dropdown {
-  position: absolute !important;
+.cid-u2Y2UYZWKN nav.navbar {
+  position: fixed;
 }
 .cid-u2Y2UYZWKN .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -6598,7 +6609,8 @@ strong {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
   border: none !important;
   box-shadow: none !important;
   overflow: hidden;
@@ -6813,6 +6825,7 @@ strong {
 }
 .cid-u2Y2UYZWKN .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-u2Y2UYZWKN a.nav-link {
   display: flex;
@@ -6895,9 +6908,6 @@ strong {
   }
   .cid-u2Y2UYZWKN .navbar-short .navbar-brand {
     min-height: 75px !important;
-  }
-  .cid-u2Y2UYZWKN .navbar.opened {
-    background: rgba(255, 255, 255, 0) !important;
   }
   .cid-u2Y2UYZWKN .navbar.navbar-short {
     background-color: #ffffff !important;
