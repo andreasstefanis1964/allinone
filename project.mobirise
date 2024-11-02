@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "Channel manager.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -56,7 +56,7 @@
     ],
     "imageResize": true,
     "publishChangesOnly": false,
-    "uniqCompNum": 257,
+    "uniqCompNum": 258,
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -4941,238 +4941,131 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "slider2",
+          "_sourceTheme": "leaderm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider4 mbr-embla\" group=\"Sliders & Galleries\" plugins=\"embla\" xmlns=\"http://www.w3.org/1999/html\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\">\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\">\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"color\" title=\"Color\" value=\"#f1f1f2\" selected>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/leaderm5/components/_images/background1.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"position-relative\">\n        <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n            <div class=\"embla__viewport\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n                <div class=\"embla__container\">\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://trip.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/ctrip-318x159.png\" alt=\"Mobirise\"></a>\n                                <img src=\"@PROJECT_PATH@/assets/images/logo%20-%20coral%20-%20vertical-576x492.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://roibos.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/roibos-520x97.jpg\" alt=\"Mobirise\"></a>\n                                <img src=\"@PROJECT_PATH@/assets/images/hostelworld-e1518787912154-576x267.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/google-logo-icon-png-transparent-background_large-576x576.png\" alt=\"Mobirise\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.17.22-250x66.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.14.43-250x82.png\" alt=\"Mobirise\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.15.26-250x74.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.21.13-250x78.png\" alt=\"Mobirise\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.19.47-250x72.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.19.28-250x72.png\" alt=\"Mobirise\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.18.20-250x87.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.23.41-250x68.png\" alt=\"Mobirise\">\n                                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-11-02%20um%2010.22.55-238x78.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://booking.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/booking-com-17291-756x127.png\" alt=\"Mobirise\"></a>\n                                <a href=\"https://expedia.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/expedia_transparent-422x119.png\" alt=\"Mobirise\"></a>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://agoda.com\"><img src=\"@PROJECT_PATH@/assets/images/agoda_transparent-344x146.png\" alt=\"Mobirise\"></a>\n                                <a href=\"https://airbnb.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/airbnb_logo-462x260.png\" alt=\"Mobirise\"></a>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://hrs.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hrs_ghs_rgb-576x173.png\" alt=\"Mobirise\"></a>\n                                <a href=\"https://hotelbeds.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hotelbeds_logo_pos-576x119.png\" alt=\"Mobirise\"></a>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://vrbo.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/vrbo-329x153.png\" alt=\"Mobirise\"></a>\n                                <a href=\"https://hoteltonight.com\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-09-11%20um%2022.06.03-462x72.png\" alt=\"Mobirise\"></a>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"image-wrapper\">\n                                <a href=\"https://tablet.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/tablet-logo-445x110.png\" alt=\"Mobirise\"></a>\n                                <img src=\"@PROJECT_PATH@/assets/images/smiith-300x198.png\" alt=\"Mobirise\">\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <button class=\"embla__button embla__button--prev\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Previous</span>\n            </button>\n            <button class=\"embla__button embla__button--next\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Next</span>\n            </button>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".mbr-section-head": {
-              "margin-bottom": "50px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "20px"
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
               }
             },
-            ".mbr-section-title": {
-              "color": "#131313",
-              "a": {
-                "pointer-events": "none"
-              }
+            ".item:focus, span:focus": {
+              "outline": "none"
             },
-            ".mbr-section-subtitle": {
-              "margin-top": "12px",
-              "color": "#131313"
-            },
-            ".card-row": {
-              "justify-content": "space-between",
-              "align-items": "center",
-              "flex-wrap": "nowrap",
-              "margin": "0 !important",
-              "& when (@showBorder)": {
-                "padding-bottom": "40px",
-                "border-bottom": "2px solid @borderColor"
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "143px",
+              "max-width": "143px",
+              "padding": "0 9px",
+              "@media (max-width: 768px)": {
+                "min-width": "70%",
+                "max-width": "initial",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
               },
-              "@media (max-width: 991px)": {
-                "justify-content": "center",
-                "row-gap": "16px",
-                "flex-wrap": "wrap"
+              ".slide-content": {
+                ".image-wrapper": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "justify-content": "center",
+                  "img": {
+                    "width": "100%",
+                    "height": "100%",
+                    "object-fit": "cover"
+                  },
+                  "img:first-child": {
+                    "margin-bottom": "40px"
+                  }
+                }
               }
             },
-            ".card": {
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "transparent",
+              "color": "@secondaryColor",
+              "border": "2px solid @primaryColor",
+              "border-radius": "50%",
               "transition": "all 0.3s",
-              "height": "fit-content",
-              "padding": "0 !important",
-              "opacity": "0.5",
-              "margin-bottom": "1rem",
-              "max-width": "20%",
-              "width": "fit-content",
-              "@media (max-width: 991px)": {
-                "display": "flex",
-                "align-items": "center",
-                "justify-content": "center",
-                "min-height": "50px",
-                "max-width": "(100% / 3)",
-                "margin": "0 20px"
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "& when not (@arrows)": {
+                "display": "none"
               },
-              "@media (max-width: 767px)": {
-                "max-width": "(100% / 2)"
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
               },
-              "@media (max-width: 575px)": {
-                "max-width": "100%"
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
               },
               "&:hover": {
-                "opacity": "1"
+                "background": "transparent",
+                "color": "@secondaryColor",
+                "opacity": ".7"
               },
-              "img": {
-                "max-width": "100%"
+              "&.embla__button--prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.embla__button--next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto"
               }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".embla__viewport": {
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent"
             }
           },
-          "_name": "apeople2",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people1 calmm5\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"5\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container-fluid':fullWidth, 'container-small': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Μερικά από τα Online OTA (πόρταλ) που συνδέουμε...</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n                Orci eu lobortis elementum nibh tellus molestie.\n                Enim lobortis scelerisque fermentum dui faucibus in ornare quam.\n            </h4>\n        </div>\n        <div class=\"row card-row\">\n            <div class=\"card\">\n                <img src=\"@PROJECT_PATH@/assets/images/booking-com-17291-756x127.png\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"card\" mbr-if=\"items > 1\">\n                <a href=\"https://expedia.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/expedia_transparent-422x119.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 2\">\n                <a href=\"https://airbnb.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/airbnb_logo-462x260.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 3\">\n                <a href=\"https://agoda.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/agoda_transparent-344x146.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 4\">\n                <a href=\"https://ctrip.com\"><img src=\"@PROJECT_PATH@/assets/images/ctrip-318x159.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "apeople2-72",
-          "_isUserblock": true,
-          "_cid": "uo6eF1YBQb",
+          "_cid": "usXwOiLGyV",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".mbr-section-head": {
-              "margin-bottom": "50px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "20px"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#131313",
-              "a": {
-                "pointer-events": "none"
-              }
-            },
-            ".mbr-section-subtitle": {
-              "margin-top": "12px",
-              "color": "#131313"
-            },
-            ".card-row": {
-              "justify-content": "space-between",
-              "align-items": "center",
-              "flex-wrap": "nowrap",
-              "margin": "0 !important",
-              "& when (@showBorder)": {
-                "padding-bottom": "40px",
-                "border-bottom": "2px solid @borderColor"
-              },
-              "@media (max-width: 991px)": {
-                "justify-content": "center",
-                "row-gap": "16px",
-                "flex-wrap": "wrap"
-              }
-            },
-            ".card": {
-              "transition": "all 0.3s",
-              "height": "fit-content",
-              "padding": "0 !important",
-              "opacity": "0.5",
-              "margin-bottom": "1rem",
-              "max-width": "20%",
-              "width": "fit-content",
-              "@media (max-width: 991px)": {
-                "display": "flex",
-                "align-items": "center",
-                "justify-content": "center",
-                "min-height": "50px",
-                "max-width": "(100% / 3)",
-                "margin": "0 20px"
-              },
-              "@media (max-width: 767px)": {
-                "max-width": "(100% / 2)"
-              },
-              "@media (max-width: 575px)": {
-                "max-width": "100%"
-              },
-              "&:hover": {
-                "opacity": "1"
-              },
-              "img": {
-                "max-width": "100%"
-              }
-            }
-          },
-          "_name": "apeople2",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people1 calmm5\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"range\" inline=\"\" title=\"Items\" name=\"items\" min=\"1\" max=\"5\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container-fluid':fullWidth, 'container-small': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Einige der Portale, welche wir Ihnen anbieten...</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n                Orci eu lobortis elementum nibh tellus molestie.\n                Enim lobortis scelerisque fermentum dui faucibus in ornare quam.\n            </h4>\n        </div>\n        <div class=\"row card-row\">\n            <div class=\"card\">\n                <a href=\"https://google.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/google-logo-icon-png-transparent-background_large-576x576.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 1\">\n                <a href=\"https://hostelworld.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hostelworld-e1518787912154-576x267.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 2\">\n                <a href=\"https://hotelbeds.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hotelbeds_logo_pos-576x119.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 3\">\n                <a href=\"https://hrs.de\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hrs_ghs_rgb-576x173.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 4\">\n                <a href=\"https://www.mrandmrssmith.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/smiith-300x198.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "apeople2-73",
-          "_isUserblock": true,
-          "_cid": "uo6eFUdf04",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".mbr-section-head": {
-              "margin-bottom": "50px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "20px"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#131313",
-              "a": {
-                "pointer-events": "none"
-              }
-            },
-            ".mbr-section-subtitle": {
-              "margin-top": "12px",
-              "color": "#131313"
-            },
-            ".card-row": {
-              "justify-content": "space-between",
-              "align-items": "center",
-              "flex-wrap": "nowrap",
-              "margin": "0 !important",
-              "& when (@showBorder)": {
-                "padding-bottom": "40px",
-                "border-bottom": "2px solid @borderColor"
-              },
-              "@media (max-width: 991px)": {
-                "justify-content": "center",
-                "row-gap": "16px",
-                "flex-wrap": "wrap"
-              }
-            },
-            ".card": {
-              "transition": "all 0.3s",
-              "height": "fit-content",
-              "padding": "0 !important",
-              "opacity": "0.5",
-              "margin-bottom": "1rem",
-              "max-width": "20%",
-              "width": "fit-content",
-              "@media (max-width: 991px)": {
-                "display": "flex",
-                "align-items": "center",
-                "justify-content": "center",
-                "min-height": "50px",
-                "max-width": "(100% / 3)",
-                "margin": "0 20px"
-              },
-              "@media (max-width: 767px)": {
-                "max-width": "(100% / 2)"
-              },
-              "@media (max-width: 575px)": {
-                "max-width": "100%"
-              },
-              "&:hover": {
-                "opacity": "1"
-              },
-              "img": {
-                "max-width": "100%"
-              }
-            }
-          },
-          "_name": "apeople2",
-          "_sourceTheme": "calmm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people1 calmm5\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"range\" inline=\"\" title=\"Items\" name=\"items\" min=\"1\" max=\"5\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container-fluid':fullWidth, 'container-small': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Einige der Portale, welche wir Ihnen anbieten...</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n                Orci eu lobortis elementum nibh tellus molestie.\n                Enim lobortis scelerisque fermentum dui faucibus in ornare quam.\n            </h4>\n        </div>\n        <div class=\"row card-row\">\n            <div class=\"card\">\n                <a href=\"https://www.tablethotels.com/de\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/tablet-logo-445x110.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 1\">\n                <a href=\"https://hopper.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/logo%20-%20coral%20-%20vertical-576x492.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 2\">\n                <a href=\"https://hoteltonight.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto%202024-09-11%20um%2022.06.03-462x72.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 3\">\n                <a href=\"https://vrbo.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/vrbo-329x153.png\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n            <div class=\"card\" mbr-if=\"items > 4\">\n                <a href=\"https://www.roibos.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/roibos-520x97.jpg\" alt=\"Mobirise Website Builder\"></a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "apeople2-74",
-          "_isUserblock": true,
-          "_cid": "uo6eGKNacA",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "slider2-75"
         },
         {
           "_name": "tabs02",
