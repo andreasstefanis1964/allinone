@@ -1554,12 +1554,6 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
-}
-@media (max-width: 768px) {
-  .cid-usXE7kzTNX .embla__button {
-    display: none;
-  }
 }
 .cid-usXE7kzTNX .embla__button:disabled {
   cursor: default;
