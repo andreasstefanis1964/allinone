@@ -1098,12 +1098,12 @@
           "_anchor": "slider2-76",
           "_isUserblock": true,
           "_cid": "usXE7kzTNX",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "_name": "tabs02",
