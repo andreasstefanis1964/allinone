@@ -3316,7 +3316,7 @@ strong {
 }
 .cid-u2SNbVXQy4 {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   background-color: #f9f9f9;
 }
 @media (max-width: 767px) {
@@ -3338,7 +3338,6 @@ strong {
 .cid-u2SNbVXQy4 .card-wrapper {
   border-radius: 2rem;
   background-color: #eeeeee;
-  background-color: transparent;
   transition: all 0.3s;
 }
 .cid-u2SNbVXQy4 .card-wrapper:hover {
@@ -3371,8 +3370,8 @@ strong {
   color: #5189b8;
 }
 .cid-uGKqu15SQ1 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: #f9f9f9;
 }
 @media (max-width: 767px) {
