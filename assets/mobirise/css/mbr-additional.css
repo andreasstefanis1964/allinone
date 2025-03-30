@@ -711,43 +711,51 @@ a {
 a:hover {
   background-image: none !important;
 }
-.container {
+.container,
+.container-small {
   max-width: 1440px;
   padding-left: 0;
   padding-right: 0;
 }
 @media (max-width: 1600px) {
-  .container {
+  .container,
+  .container-small {
     max-width: 1320px;
   }
 }
 @media (max-width: 1399px) {
-  .container {
+  .container,
+  .container-small {
     max-width: 1140px;
   }
 }
 @media (max-width: 1199px) {
-  .container {
+  .container,
+  .container-small {
     max-width: 960px;
     padding-left: 12px;
     padding-right: 12px;
   }
 }
 @media (max-width: 991px) {
-  .container {
+  .container,
+  .container-small {
     max-width: 720px;
   }
 }
 @media (max-width: 767px) {
-  .container {
+  .container,
+  .container-small {
     max-width: 540px;
   }
 }
 @media (max-width: 575px) {
-  .container {
+  .container,
+  .container-small {
     max-width: 100%;
   }
 }
+.container,
 .container-small {
   max-width: 1480px;
   padding-left: 20px;
@@ -759,11 +767,13 @@ a:hover {
   margin-left: auto;
 }
 @media (max-width: 1500px) {
+  .container,
   .container-small {
     max-width: 1180px;
   }
 }
 @media (max-width: 1024px) {
+  .container,
   .container-small {
     max-width: 100%;
     padding-left: 30px;
@@ -771,12 +781,14 @@ a:hover {
   }
 }
 @media (max-width: 991px) {
+  .container,
   .container-small {
     padding-left: 25px;
     padding-right: 25px;
   }
 }
 @media (max-width: 767px) {
+  .container,
   .container-small {
     padding-left: 10px;
     padding-right: 10px;
