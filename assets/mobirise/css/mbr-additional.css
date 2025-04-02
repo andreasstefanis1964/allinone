@@ -1613,6 +1613,31 @@ strong {
   -khtml-user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
+.cid-uHfiNTvoDr {
+  background-color: #ffffff;
+}
+.cid-uHfiNTvoDr H1 {
+  color: #57468b;
+}
+.cid-uHfiNTvoDr .mbr-text,
+.cid-uHfiNTvoDr .mbr-section-btn {
+  color: #716c80;
+}
+.cid-uHfiNTvoDr img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (min-width: 1200px) {
+  .cid-uHfiNTvoDr .col-lg-6 {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-uHfiNTvoDr img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
 .cid-uHezpC3ZtS {
   padding-top: 45px;
   padding-bottom: 0px;
