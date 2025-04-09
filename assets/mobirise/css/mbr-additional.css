@@ -1908,6 +1908,201 @@ strong {
   position: absolute;
   top: 0;
 }
+.cid-uHTuDR5KjE {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-uHTuDR5KjE .price-term {
+  vertical-align: top;
+}
+@media (min-width: 1200px) {
+  .cid-uHTuDR5KjE .container {
+    max-width: 1300px;
+    padding: 0 2rem;
+  }
+}
+.cid-uHTuDR5KjE h4 {
+  margin: 0;
+}
+.cid-uHTuDR5KjE .card1 {
+  background: #f2f2f4;
+}
+.cid-uHTuDR5KjE .card2 {
+  background: #ed6436;
+}
+.cid-uHTuDR5KjE .icon {
+  font-size: 4rem;
+  color: #181818;
+  display: inline-block;
+}
+@media (min-width: 767px) {
+  .cid-uHTuDR5KjE .center-card {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    padding: 0;
+    z-index: 10;
+    background: #ed6436;
+    border-radius: 30px;
+  }
+}
+.cid-uHTuDR5KjE .plan-item {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+  padding: 0 1rem;
+}
+.cid-uHTuDR5KjE .plan-item .mbr-iconfont {
+  margin-left: 2rem;
+  font-size: 18px;
+  position: relative;
+  top: 8px;
+}
+.cid-uHTuDR5KjE .plan-item p {
+  margin: 0;
+  padding: 6px 0;
+  font-weight: 500;
+  width: 100%;
+}
+.cid-uHTuDR5KjE .plan-body .mbr-section-btn {
+  padding: 44px 0 0;
+}
+.cid-uHTuDR5KjE .plan-body .mbr-section-btn .btn {
+  margin-bottom: 14px;
+}
+.cid-uHTuDR5KjE .plan-header {
+  padding: 2rem 2rem 0rem 2rem;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.cid-uHTuDR5KjE .plan-body {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 1rem 1rem;
+}
+.cid-uHTuDR5KjE .plan-price {
+  padding: 2rem 1rem;
+}
+.cid-uHTuDR5KjE .plan {
+  word-break: break-word;
+  position: relative;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+.cid-uHTuDR5KjE .row {
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.cid-uHTuDR5KjE .price-value,
+.cid-uHTuDR5KjE .price-value2 {
+  vertical-align: top;
+}
+@media (max-width: 992px) {
+  .cid-uHTuDR5KjE .plan {
+    margin-bottom: 3rem;
+  }
+  .cid-uHTuDR5KjE .content {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-uHTuDR5KjE .plan-price {
+    padding: 2rem 1rem;
+  }
+  .cid-uHTuDR5KjE .plan-body {
+    padding: 0;
+  }
+  .cid-uHTuDR5KjE .plan-header {
+    padding: 2rem 1rem;
+  }
+}
+.cid-uHTuDR5KjE .plan-title {
+  color: #ef5311;
+}
+.cid-uHTuDR5KjE .plan-title2 {
+  color: #ffffff;
+}
+.cid-uHTuDR5KjE .month2,
+.cid-uHTuDR5KjE .plan-header {
+  color: #ffffff;
+}
+.cid-uHTuDR5KjE .item2 {
+  color: #ffffff;
+}
+.cid-uHTuDR5KjE .price-figure2 {
+  color: #ffffff;
+}
+.cid-uHTuDR5KjE .price-value2 {
+  color: #ffffff;
+}
+.cid-uHTuDR5KjE H2 {
+  color: #ed6436;
+}
+.cid-uHTuDR5KjE .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uHTuDR5KjE .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uHTuDR5KjE .price-value,
+.cid-uHTuDR5KjE .plan-price {
+  color: #ef5311;
+}
+.cid-uHTuDR5KjE .month,
+.cid-uHTuDR5KjE .plan-header {
+  color: #ef5311;
+}
+.cid-uHTuOV2veK {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/background1.webp");
+}
+.cid-uHTuOV2veK .mbr-section-subtitle {
+  color: #fc7942;
+}
+.cid-uHTuOV2veK ul.list-inline {
+  margin: 0;
+  -webkit-align-self: center;
+  align-self: center;
+}
+.cid-uHTuOV2veK ul.list-inline li {
+  margin: 0;
+  padding: .5rem;
+}
+.cid-uHTuOV2veK ul.list-inline img {
+  max-width: 6rem;
+  padding-bottom: .5rem;
+}
+.cid-uHTuOV2veK ul.list-inline img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+}
+@media (max-width: 767px) {
+  .cid-uHTuOV2veK .list-inline-item img {
+    max-width: 5rem;
+  }
+}
+.cid-uHTuOV2veK .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uHTuOV2veK .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 .cid-u2XafAHM6C {
   padding-top: 60px;
   padding-bottom: 60px;

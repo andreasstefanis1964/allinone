@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "websites.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -58,11 +58,11 @@
     ],
     "imageResize": true,
     "publishChangesOnly": false,
-    "uniqCompNum": 273,
+    "uniqCompNum": 279,
     "versionPublish": "6.0.3",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "qol7mennax",
+    "mbrsiteDomain": "qn8jtpuzgr",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -1476,6 +1476,242 @@
           "_anchor": "tabs02-5q",
           "_isUserblock": true,
           "_cid": "ueafPVwY3a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "pricing-tables2",
+          "_sourceTheme": "petsm4",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Pricing Tables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" class=\"pricing-tables2 petsm4_pricing-tables2\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\t\t<input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\t\t<select title=\"Count\" name=\"itemsCount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t</select>\n\t\t<input type=\"range\" inline title=\"Items in 1\" name=\"items1Count\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n\t\t<input type=\"range\" inline title=\"Items in 2\" name=\"items2Count\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"itemsCount > 1\">\n\t\t<input type=\"range\" inline title=\"Items in 3\" name=\"items3Count\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"itemsCount > 2\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<header>Color</header>\n\t\t<input type=\"color\" title=\"Icon\" name=\"icons\" value=\"#181818\" selected>\n\t\t<input type=\"color\" name=\"card1bg\" title=\"Cards\" value=\"#f2f2f4\" condition=\"itemsCount > 0\">\n\t\t<input type=\"color\" name=\"card2bg\" title=\"Primary Card\" value=\"#ed6436\" condition=\"itemsCount > 1\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/petsm4/components/_images/background2.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/petsm4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container d-flex flex-column\">\n\t\t<div class=\"tab-content\">\n\t\t\t<div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-md-12 content align-left col-lg-3\">\n\t\t\t\t\t\t<h2 class=\"mbr-section-title align-left mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">ΙΣΧΥΕΙ ΑΝΑ BNB VR</h2>\n\t\t\t\t\t\t<h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Deal</h1>\n\t\t\t\t\t\t<p class=\"mbr-text pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .content\">Χρειάζεστε μία γρήγορη και ευέλικτη λύση για το κατάλυμά σας;<br>Επιλέξτε μεταξύ 3 πακέτων:<br>(χωρίς επιβάρυνση ΦΠΑ εφόσον μας δηλώσετε το ΑΦΜ σας)</p>\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://wa.me/49 173 95 41407\" data-app-placeholder=\"Type Text\">WhatsApp εδώ</a></div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"plan col-12 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                        'col-lg-3': itemsCount == 3,\n                        'col-lg-6': itemsCount == 2}\">\n\t\t\t\t\t\t<div class=\"plan-header card1\">\n\t\t\t\t\t\t\t<h3 class=\"plan-title mbr-black mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-title\">ALL IN ONE <br>(ελάχιστη διάρκεια 3 μήνες)</h3>\n\t\t\t\t\t\t\t<h4 class=\"month mbr-black mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".month, .plan-header\">3μηνο</h4>\n\t\t\t\t\t\t\t<span class=\"mbr-iconfont pt-3 pb-2 icon mdi-image-looks-3\" mbr-icon></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"plan-body card1\">\n\t\t\t\t\t\t\t<div class=\"plan-list\" mbr-list mbr-list-grow=\"items1Count\" mbr-if=\"items1Count > 0\">\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Λογισμικό PMS</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Channel manager (3 ΟΤΑ)<br>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Booking engine (3%)<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-close mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Χωρίς Website</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"plan-price\">\n\t\t\t\t\t\t\t\t<span mbr-text class=\"price-value mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value, .plan-price\">€</span>\n\t\t\t\t\t\t\t\t<span mbr-text class=\"price-figure mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".price-figure, .plan-price\">30</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"plan col-12 center-card justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                        'col-lg-3': itemsCount == 3,\n                        'col-lg-6': itemsCount == 2}\">\n\t\t\t\t\t\t<div class=\"plan-header card2\">\n\t\t\t\t\t\t\t<h3 class=\"plan-title2 mbr-black mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-title2\">ALL IN ONE</h3>\n\t\t\t\t\t\t\t<h4 class=\"month2 mbr-black mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".month2, .plan-header\">Ετήσια</h4>\n\t\t\t\t\t\t\t<span class=\"mbr-iconfont pt-3 pb-2 icon icon54-v1-cuppon\" mbr-icon style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"plan-body card2\">\n\t\t\t\t\t\t\t<div class=\"plan-list\" mbr-list mbr-list-grow=\"items2Count\" mbr-if=\"items2Count > 0\">\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"item2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item2\">Λογισμικό PMS</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"item2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item2\">Channel manager (3 ΟΤΑ)<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"item2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item2\">Booking engine (3%)<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"item2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item2\">Rent a Website<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"plan-price\">\n\t\t\t\t\t\t\t\t<span mbr-text class=\"price-value2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value2, .plan-price\">€</span>\n\t\t\t\t\t\t\t\t<span mbr-text class=\"price-figure2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".price-figure2, .plan-price\">500</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"plan col-12 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                        'col-lg-3': itemsCount == 3,\n                        'col-lg-6': itemsCount == 2}\">\n\t\t\t\t\t\t<div class=\"plan-header card1\">\n\t\t\t\t\t\t\t<h3 class=\"plan-title mbr-black mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".plan-title\">ALL IΝ ONE<br>(ελάχιστη διάρκεια 6 μήνες)</h3>\n\t\t\t\t\t\t\t<h4 class=\"month mbr-black mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".month, .plan-header\">Μήνα</h4>\n\t\t\t\t\t\t\t<span class=\"mbr-iconfont pt-3 pb-2 icon icon54-v1-calendar\" mbr-icon></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"plan-body card1\">\n\t\t\t\t\t\t\t<div class=\"plan-list\" mbr-list mbr-list-grow=\"items3Count\" mbr-if=\"items3Count > 0\">\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Λογισμικό PMS</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Channel manager (3 ΟΤΑ)<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Booking engine (3%)<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"plan-item d-flex justify-content-center\">\n\t\t\t\t\t\t\t\t\t<span class=\"mbr-iconfont mobi-mbri-success mobi-mbri\" mbr-icon style=\"color: rgb(239, 83, 17); fill: rgb(239, 83, 17);\"></span>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan-item p, .plan-item .mbr-iconfont\">Rent a Website<br></p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"plan-price\">\n\t\t\t\t\t\t\t\t<span mbr-text class=\"price-value mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value, .plan-price\">€</span>\n\t\t\t\t\t\t\t\t<span mbr-text class=\"price-figure mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".price-figure, .plan-price\">50&nbsp;</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".price-term": {
+              "vertical-align": "top"
+            },
+            "@media (min-width: 1200px)": {
+              ".container": {
+                "max-width": "1300px",
+                "padding": "0 2rem"
+              }
+            },
+            "h4": {
+              "margin": "0"
+            },
+            ".card1": {
+              "background": "@card1bg"
+            },
+            ".card2": {
+              "background": "@card2bg"
+            },
+            ".icon": {
+              "font-size": "4rem",
+              "color": "@icons",
+              "display": "inline-block"
+            },
+            "@media (min-width: 767px)": {
+              ".center-card": {
+                "-webkit-transform": "scale(1.1)",
+                "transform": "scale(1.1)",
+                "padding": "0",
+                "z-index": "10",
+                "background": "@card2bg",
+                "border-radius": "30px"
+              }
+            },
+            ".plan-item": {
+              "-webkit-box-orient": "horizontal",
+              "-webkit-box-direction": "reverse",
+              "flex-direction": "row-reverse",
+              "padding": "0 1rem",
+              ".mbr-iconfont": {
+                "margin-left": "2rem",
+                "font-size": "18px",
+                "position": "relative",
+                "top": "8px"
+              },
+              "p": {
+                "margin": "0",
+                "padding": "6px 0",
+                "font-weight": "500",
+                "width": "100%"
+              }
+            },
+            ".plan-body .mbr-section-btn": {
+              "padding": "44px 0 0",
+              ".btn": {
+                "margin-bottom": "14px"
+              }
+            },
+            ".plan-header": {
+              "padding": "2rem 2rem 0rem 2rem",
+              "border-top-left-radius": "30px",
+              "border-top-right-radius": "30px"
+            },
+            ".plan-body": {
+              "border-bottom-left-radius": "30px",
+              "border-bottom-right-radius": "30px",
+              "padding": "1rem 1rem"
+            },
+            ".plan-price": {
+              "padding": "2rem 1rem"
+            },
+            ".plan": {
+              "word-break": "break-word",
+              "position": "relative",
+              "max-width": "400px",
+              "margin-bottom": "1rem"
+            },
+            ".row": {
+              "-webkit-box-pack": "center",
+              "justify-content": "center"
+            },
+            ".price-value, .price-value2": {
+              "vertical-align": "top"
+            },
+            "@media (max-width: 992px)": {
+              ".plan": {
+                "margin-bottom": "3rem"
+              },
+              ".content": {
+                "margin-bottom": "3rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".plan-price": {
+                "padding": "2rem 1rem"
+              },
+              ".plan-body": {
+                "padding": "0"
+              },
+              ".plan-header": {
+                "padding": "2rem 1rem"
+              }
+            },
+            ".plan-title": {
+              "color": "#ef5311"
+            },
+            ".plan-title2": {
+              "color": "#ffffff"
+            },
+            ".month2, .plan-header": {
+              "color": "#ffffff"
+            },
+            ".item2": {
+              "color": "#ffffff"
+            },
+            ".price-figure2": {
+              "color": "#ffffff"
+            },
+            ".price-value2": {
+              "color": "#ffffff"
+            },
+            "H2": {
+              "color": "#ed6436"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".price-value, .plan-price": {
+              "color": "#ef5311"
+            },
+            ".month, .plan-header": {
+              "color": "#ef5311"
+            }
+          },
+          "_cid": "uHTuDR5KjE",
+          "_anchor": "pricing-tables2-7n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "info4",
+          "_sourceTheme": "commercem4",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Info info4\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Gray Filter\" name=\"grayFilter\">\n        <input type=\"checkbox\" title=\"Visa\" name=\"showVisa\" checked>\n        <input type=\"checkbox\" title=\"Master Card\" name=\"showMasterCard\" checked>\n        <input type=\"checkbox\" title=\"American Express\" name=\"showAmericanExpress\">\n        <input type=\"checkbox\" title=\"Pay Pal\" name=\"showPayPal\" checked>\n        <input type=\"checkbox\" title=\"Diners Club\" name=\"showDinersClub\">\n        <input type=\"checkbox\" title=\"Discover\" name=\"showDiscover\">\n        <input type=\"checkbox\" title=\"Bitcoin\" name=\"showBitcoin\">\n        <input type=\"checkbox\" title=\"Western Union\" name=\"showWesternUnion\">\n        <input type=\"checkbox\" title=\"JCB\" name=\"showJcb\">\n        <input type=\"checkbox\" title=\"Stripe\" name=\"showStripe\" checked>\n        <input type=\"checkbox\" title=\"Amazon\" name=\"showAmazon\">\n        <input type=\"checkbox\" title=\"Ebay\" name=\"showEbay\">\n        <input type=\"checkbox\" title=\"Union Pay\" name=\"showUnionPay\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.webp\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.webp\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bcc2d8\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    \n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12\" mbr-if=\"showTitle || showSubtitle\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-2 mbr-light align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-class=\"{'pb-4':!showTitle}\">Δεχόμαστε πληρωμές με τις παρακάτω μεθόδους:</h3>\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                   Supported payment systems in our store\n                </h2>\n            </div>\n\n            <div class=\"col-12 col-md-12\" mbr-class=\"{'pt-4':showTitle}\">\n                <div class=\"row justify-content-center\">\n                    <ul class=\"list-inline align-center\">\n                        <li class=\"list-inline-item\" mbr-if=\"showVisa\">\n                            <img src=\"@PROJECT_PATH@/assets/images/visa.webp\" alt=\"Visa\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showMasterCard\">\n                            <img src=\"@PROJECT_PATH@/assets/images/master-card.webp\" alt=\"Master Card\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showAmericanExpress\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/american-express.png\" alt=\"American Express\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showPayPal\">\n                            <img src=\"@PROJECT_PATH@/assets/images/paypal.webp\" alt=\"Pay Pal\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showDinersClub\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/diners-club.png\" alt=\"Diners Club\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showDiscover\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/discover.png\" alt=\"Discover\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showBitcoin\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/bitcoin.png\" alt=\"Bitcoin\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showWesternUnion\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/western-union.png\" alt=\"Western Union\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showJcb\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/jcb.png\" alt=\"JCB\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showStripe\">\n                            <img src=\"@PROJECT_PATH@/assets/images/stripe.webp\" alt=\"Stripe\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showAmazon\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/amazon.png\" alt=\"Amazon\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showEbay\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/ebay.png\" alt=\"Ebay\">\n                        </li>\n                        <li class=\"list-inline-item\" mbr-if=\"showUnionPay\">\n                            <img src=\"@ADDONS_PATH@/commercem4/components/_images/payments/union-pay.png\" alt=\"Union Pay\">\n                        </li>\n                    \n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#fc7942"
+            },
+            "ul.list-inline": {
+              "margin": "0",
+              "-webkit-align-self": "center",
+              "align-self": "center",
+              "li": {
+                "margin": "0",
+                "padding": ".5rem"
+              },
+              "img": {
+                "max-width": "6rem",
+                "padding-bottom": ".5rem",
+                "& when (@grayFilter)": {
+                  "-webkit-filter": "grayscale(100%)",
+                  "-moz-filter": "grayscale(100%)",
+                  "-ms-filter": "grayscale(100%)",
+                  "-o-filter": "grayscale(100%)",
+                  "filter": "gray"
+                },
+                "&:hover": {
+                  "-webkit-filter": "none",
+                  "-moz-filter": "none",
+                  "-ms-filter": "none",
+                  "-o-filter": "none",
+                  "filter": "none"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".list-inline-item img": {
+                "max-width": "5rem"
+              }
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            }
+          },
+          "_cid": "uHTuOV2veK",
+          "_anchor": "info4-7q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
