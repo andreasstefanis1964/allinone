@@ -2058,51 +2058,6 @@ strong {
 .cid-uHTuDR5KjE .plan-header {
   color: #ef5311;
 }
-.cid-uHTuOV2veK {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/mbr-1920x1282.webp");
-}
-.cid-uHTuOV2veK .mbr-section-subtitle {
-  color: #155e9b;
-}
-.cid-uHTuOV2veK ul.list-inline {
-  margin: 0;
-  -webkit-align-self: center;
-  align-self: center;
-}
-.cid-uHTuOV2veK ul.list-inline li {
-  margin: 0;
-  padding: .5rem;
-}
-.cid-uHTuOV2veK ul.list-inline img {
-  max-width: 6rem;
-  padding-bottom: .5rem;
-}
-.cid-uHTuOV2veK ul.list-inline img:hover {
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-}
-@media (max-width: 767px) {
-  .cid-uHTuOV2veK .list-inline-item img {
-    max-width: 5rem;
-  }
-}
-.cid-uHTuOV2veK .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-uHTuOV2veK .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
 .cid-u2XafAHM6C {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2842,6 +2797,51 @@ strong {
   display: none;
 }
 .cid-tYJeuGVSpO .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uI06HfgECs {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/mbr-1920x1282.webp");
+}
+.cid-uI06HfgECs .mbr-section-subtitle {
+  color: #155e9b;
+}
+.cid-uI06HfgECs ul.list-inline {
+  margin: 0;
+  -webkit-align-self: center;
+  align-self: center;
+}
+.cid-uI06HfgECs ul.list-inline li {
+  margin: 0;
+  padding: .5rem;
+}
+.cid-uI06HfgECs ul.list-inline img {
+  max-width: 6rem;
+  padding-bottom: .5rem;
+}
+.cid-uI06HfgECs ul.list-inline img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+}
+@media (max-width: 767px) {
+  .cid-uI06HfgECs .list-inline-item img {
+    max-width: 5rem;
+  }
+}
+.cid-uI06HfgECs .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uI06HfgECs .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
