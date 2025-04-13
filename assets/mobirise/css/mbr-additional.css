@@ -1638,6 +1638,31 @@ strong {
     margin-bottom: 2rem;
   }
 }
+.cid-uIfkqrFJqX {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #fc7942;
+}
+.cid-uIfkqrFJqX .item:focus,
+.cid-uIfkqrFJqX span:focus {
+  outline: none;
+}
+.cid-uIfkqrFJqX .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.cid-uIfkqrFJqX .item {
+  font-weight: 700;
+  color: #131313;
+  min-height: 90px;
+}
+@media (max-width: 768px) {
+  .cid-uIfkqrFJqX .item {
+    min-height: 45px;
+  }
+}
 .cid-uHezpC3ZtS {
   padding-top: 45px;
   padding-bottom: 0px;

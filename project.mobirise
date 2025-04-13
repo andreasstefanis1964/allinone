@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "pms-for-multi-properties-bnb-administrators.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -58,7 +58,7 @@
     ],
     "imageResize": true,
     "publishChangesOnly": false,
-    "uniqCompNum": 285,
+    "uniqCompNum": 286,
     "versionPublish": "6.0.3",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -1150,6 +1150,54 @@
           "_anchor": "content02-7g",
           "_isUserblock": true,
           "_cid": "uHfiNTvoDr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "@min-height": "90px",
+            "@min-height-small": "@min-height / 2",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".container-fluid": {
+              "padding-left": "0",
+              "padding-right": "0",
+              "overflow": "hidden",
+              "max-width": "100%"
+            },
+            ".item": {
+              "font-weight": "700",
+              "color": "@contentColor",
+              "min-height": "@min-height",
+              "@media (max-width: 768px)": {
+                "min-height": "@min-height-small"
+              }
+            }
+          },
+          "_name": "afeatures9",
+          "_sourceTheme": "calmm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features9 calmm5\" group=\"Features\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Animated Text Settings</header>\n        <select title=\"Font style\" name=\"linesTitle\">\n            <option value=\"title1\">Title 1</option>\n            <option value=\"title2\" selected=\"\">Title 2</option>\n        </select>\n        <input type=\"text\" title=\"Line content 1 <br> (For the best experience, please write at least 100 characters)\" inline=\"\" name=\"animatedLine1\" value=\"★ Οικονομικό λογισμικό cloud για διαχειριστές σε νησιά, πόλεις, περιφέρεια  ★ Οικονομικά πακέτα για περισσότερα των 30 ID σε ένα Κεντρικό ημερολόγιο ★ Προβολή στις γερμανόφωνες αγορές σε πάνω από 3.5 εκατ. πελάτες μέσω του ela-greece με 10% προμήθεια  ★ Διαφήμιση σε γερμανόφωνα κοινωνικά δίκτυα για απευθείας κρατήσεις με 5% προμήθεια \">\n        <input type=\"range\" inline=\"\" title=\"Line speed\" name=\"speed\" min=\"0.01\" max=\"0.09\" step=\"0.01\" value=\"0.04\">\n        <select title=\"Direction\" name=\"direction\">\n            <option value=\"-1\" selected=\"\">Left</option>\n            <option value=\"1\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Content color\" value=\"#131313\" name=\"contentColor\" selected=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" parallax=\"\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#FC7942\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f7f7f7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n\n        <div class=\"loop-container\">\n            <div class=\"item\" mbr-class=\"{'display-1':linesTitle=='title1','display-2':linesTitle=='title2'}\" data-linewords=\"{{animatedLine1}}\" data-direction=\"{{direction}}\" data-speed=\"{{speed}}\"></div>\n            <div class=\"item\" mbr-class=\"{'display-1':linesTitle=='title1','display-2':linesTitle=='title2'}\" data-linewords=\"{{animatedLine1}}\" data-direction=\"{{direction}}\" data-speed=\"{{speed}}\"></div>\n        </div>\n\n    </div>\n</section>",
+          "_anchor": "afeatures9-7x",
+          "_isUserblock": true,
+          "_cid": "uIfkqrFJqX",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
