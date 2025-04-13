@@ -7734,39 +7734,6 @@ strong {
     margin-top: 15px;
   }
 }
-.cid-uIf5Py0uYt {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-  overflow: hidden;
-}
-.cid-uIf5Py0uYt .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-uIf5Py0uYt .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-uIf5Py0uYt .image-wrapper {
-  border: 2px solid #ff9466;
-  box-shadow: 4px 4px 0 #ff9466;
-  background-color: #ff9466;
-}
-.cid-uIf5Py0uYt img {
-  width: 100%;
-  object-fit: cover;
-  max-height: 100vh;
-}
-@media (max-width: 767px) {
-  .cid-uIf5Py0uYt img {
-    min-height: 400px;
-  }
-}
 .cid-u2Y2UZDWR3 {
   padding-top: 6rem;
   padding-bottom: 6rem;
