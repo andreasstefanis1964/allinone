@@ -8449,7 +8449,7 @@
             },
             ".mbr-section-title": {
               "margin-bottom": "0",
-              "color": "#232323"
+              "color": "#ef5311"
             },
             ".mbr-section-subtitle": {
               "margin-top": "24px",
