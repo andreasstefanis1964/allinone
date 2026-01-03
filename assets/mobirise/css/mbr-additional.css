@@ -1663,6 +1663,29 @@ strong {
     min-height: 45px;
   }
 }
+.cid-v7htOBkVx2 {
+  background-image: url("../../../assets/images/bildschirmfoto-2026-01-03-um-13.53.51.webp");
+}
+.cid-v7htOBkVx2 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v7htOBkVx2 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-v7htOBkVx2 .image-wrap {
+  height: 400px;
+}
+@media (max-width: 992px) {
+  .cid-v7htOBkVx2 .image-wrap {
+    height: 300px;
+  }
+}
 .cid-uHezpC3ZtS {
   padding-top: 45px;
   padding-bottom: 0px;
@@ -1920,7 +1943,7 @@ strong {
 }
 .cid-v7f7KyNxhz .card-text,
 .cid-v7f7KyNxhz .mbr-section-btn {
-  color: #7dabd2;
+  color: #155e9b;
 }
 .cid-ueafPVwY3a {
   padding-top: 60px;
