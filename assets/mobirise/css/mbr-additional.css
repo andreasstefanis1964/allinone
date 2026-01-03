@@ -1846,8 +1846,8 @@ strong {
 .cid-v7f7KyNxhz .item-wrapper {
   width: 100%;
   padding: 11px 11px 40px;
-  border: 2px solid #131313;
-  box-shadow: 4px 4px 0 #131313;
+  border: 2px solid #e2ecf4;
+  box-shadow: 4px 4px 0 #e2ecf4;
   background: #ffffff;
   transition: .3s all;
 }
@@ -1865,7 +1865,7 @@ strong {
 .cid-v7f7KyNxhz .item-img img {
   width: 100%;
   object-fit: cover;
-  aspect-ratio: 46/calc(10 * 3);
+  height: auto;
 }
 .cid-v7f7KyNxhz .item-content {
   margin-top: 40px;
