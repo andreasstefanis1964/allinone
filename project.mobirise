@@ -58,7 +58,7 @@
     ],
     "imageResize": true,
     "publishChangesOnly": false,
-    "uniqCompNum": 366,
+    "uniqCompNum": 367,
     "versionPublish": "6.1.16",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -5479,11 +5479,11 @@
           "_sourceTheme": "calmm5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features4 calmm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\">Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#131313\" condition=\"showBorder\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 mbr-section-head\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Λίστα online πόρταλ κρατήσεων</b></h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Suspendisse sed nisi lacus sed viverra tellus.\n                </h5>\n            </div>\n        </div>\n        <div class=\"row cards-row {{contentAlign}}\" mbr-if=\"showTitle || showText\">\n            <div class=\"card col-xl-3 col-md-6\">\n                <div class=\"card-wrapper\">\n                    <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                        <b>+177</b></h5>\n                    <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>ΟNLINE ΠΟΡΤΑΛ</b></p>\n                </div>\n            </div>\n            <div class=\"card col-xl-3 col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                        <b>+6</b>\n                    </h5>\n                    <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>OUTDOOR &amp; <br>CAMPING ΠΟΡΤΑΛ</b></p>\n                </div>\n            </div>\n            <div class=\"card col-xl-3 col-md-6\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                        <b>+11</b></h5>\n                    <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                        <b>Β2Β<br>ΠΟΡΤΑΛ</b></p>\n                </div>\n            </div>\n            <div class=\"card col-xl-3 col-md-6\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                        <b>+8</b></h5>\n                    <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>SOCIAL MEDIA <br>ΠΟΡΤΑΛ</b></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"border-item\" mbr-if=\"showBorder\"></div>\n    </div>\n</section>",
           "_cid": "vhkN0aWO6x",
+          "_anchor": "afeatures4-a3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "afeatures4-a3"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5624,11 +5624,11 @@
           "_sourceTheme": "calmm5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features2 calmm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImg\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#FC7942\" condition=\"showIcon\">\n        <input type=\"color\" title=\"Card Border\" name=\"cardBorder\" value=\"#131313\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 mbr-section-head\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Υπηρεσίες για καλύτερη απόδοση</b></h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Suspendisse sed nisi lacus sed viverra tellus.\n                </h5>\n            </div>\n        </div>\n        <div class=\"cards-row\" mbr-if=\"showImg || showTitle || showSubtitle || showText || showIcon\">\n            <div class=\"card\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box\" mbr-if=\"showImg || showTitle || showSubtitle\">\n                        <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                            <img src=\"@PROJECT_PATH@/assets/images/favicon-1754734828922-160x152.webp\" alt>\n                        </div>\n                        <div class=\"title-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                            <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                <b>Δωρεάν 2-way-xml συνδέσεις</b></h5>\n                            <h5 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                <b>ΧΩΡΙΣ EXTRA ΧΡΕΩΣΕΙΣ ΑΝΑ ΠΟΡΤΑΛ</b></h5>\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showIcon\">\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Όλα τα πόρταλ συνδέονται ΔΩΡΕΑΝ χωρίς επιπρόσθετες μηνιαίες χρεώσεις ανά πόρταλ (εκτός GDS).\n                        </p>\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <a href=\"https://mobiri.se\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box\" mbr-if=\"showImg || showTitle || showSubtitle\">\n                        <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                            <img src=\"@PROJECT_PATH@/assets/images/favicon-1754734828922-160x152.webp\" alt=\"Mobirise Website Builder\">\n                        </div>\n                        <div class=\"title-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                            <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Νέα συμβόλαια με ΟΤΑ</b></h5>\n                            <h5 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\"><b>ΣΕΤΑΡΙΣΜΑ με ΠΑΓΙΑ ΕΦΑΠΑΞ ΧΡΕΩΣΗ</b></h5>\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showIcon\">\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Εάν δεν έχετε με κάποιο πόρταλ συμβόλαιο, τότε αναλαμβάνουμε εμείς με ένα μικρό κόστος (€) την δημιουργία συμβολαίου στο όνομα της επιχείρησής σας, το σετάρισμα των στοιχείων, και τις συνδέσεις.</p>\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <a href=\"https://mobiri.se\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box\" mbr-if=\"showImg || showTitle || showSubtitle\">\n                        <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                            <img src=\"@PROJECT_PATH@/assets/images/favicon-1754734828922-160x152.webp\" alt=\"Mobirise Website Builder\">\n                        </div>\n                        <div class=\"title-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                            <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                <b>Βελτιστοποίηση καταχωρήσεων</b></h5>\n                            <h5 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                <b>RANKING, ΒΑΘΜΟΛΟΓΙΑ ΠΕΡΙΕΧΟΜΕΝΟΥ</b></h5>\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showIcon\">\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Αναλύουμε την υπάρχουσα κατάσταση της καταχώρησης και κάνουμε όλες τις απαραίτητες διορθώσεις στο εκάστοτε πόρταλ.</p>\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <a href=\"https://mobiri.se\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box\" mbr-if=\"showImg || showTitle || showSubtitle\">\n                        <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                            <img src=\"@PROJECT_PATH@/assets/images/favicon-1754734828922-160x152.webp\" alt=\"Mobirise Website Builder\">\n                        </div>\n                        <div class=\"title-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                            <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                <b>Συμβουλευτικές υπηρεσίες</b></h5>\n                            <h5 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                <b>ΓΙΑ ΜΕΓΑΛΥΤΕΡΗ ΑΠΟΔΟΣΗ</b></h5>\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showIcon\">\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Ελέγχουμε το σετάρισμα της καταχώρησης και συμπληρώνουμε ή διορθώνουμε τυχόν ατέλειες ή ελλειπείς ρυθμίσεις που μπορεί να επηρεάζουν την απόδοση των κρατήσεων.</p>\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <a href=\"https://mobiri.se\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box\" mbr-if=\"showImg || showTitle || showSubtitle\">\n                        <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                            <img src=\"@PROJECT_PATH@/assets/images/favicon-1754734828922-160x152.webp\" alt=\"Mobirise Website Builder\">\n                        </div>\n                        <div class=\"title-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                            <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                <b>Yielding &amp; Revenue Management</b></h5>\n                            <h5 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\"><b>ΒΕΛΤΙΣΤΟΠΟΙΗΣΗ ΤΙΜΩΝ</b></h5>\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showIcon\">\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Ανάλογα το μοντέλο τιμών που εφαρμόζετε, κάνουμε συνεχή έλεγχο και παρακολούηθηση με σκοπό την αύξηση των κρατήσεων και των εσόδων.</p>\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <a href=\"https://mobiri.se\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box\" mbr-if=\"showImg || showTitle || showSubtitle\">\n                        <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                            <img src=\"../_images/features/features1.png\" alt=\"Mobirise Website Builder\">\n                        </div>\n                        <div class=\"title-wrap\" mbr-if=\"showTitle || showSubtitle\">\n                            <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                <b>Aliquet bibendum enim</b>\n                            </h5>\n                            <h5 class=\"card-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                <b>FEBRUARY  2023</b>\n                            </h5>\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showIcon\">\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">\n                            Sed ullamcorper morbi tincidunt ornare massa rutrum tellus\n                            pellentesque eu tincidunt tortor.\n                        </p>\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <a href=\"https://mobiri.se\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "vhkN2FpRyo",
+          "_anchor": "afeatures2-a4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "afeatures2-a4"
+          "_params": {}
         },
         {
           "_name": "pricing01",
@@ -13413,6 +13413,132 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "contacts01",
+          "_sourceTheme": "healthm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contacts01 healthm5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDesc\" checked>\n        <input type=\"color\" title=\"Description BG\" value=\"#fff1e2\" name=\"descBg\" condition=\"showDesc\" selected>\n        <input type=\"color\" title=\"Description Border\" value=\"#fff1e2\" name=\"borderDesc\" condition=\"showDesc\" selected>\n        <input type=\"checkbox\" title=\"Contacts\" name=\"showContacts\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Container BG\" value=\"#fff1e2\" name=\"container\" selected>\n        <input type=\"color\" title=\"Border\" value=\"#fff1e2\" name=\"border\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fff1e2\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <div class=\"content-wrapper\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n                    <div class=\"content-wrap\">\n                        <div class=\"desc-wrapper\">\n                            <p class=\"mbr-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesc\" data-app-selector=\".mbr-desc, .desc-wrapper\">Είναι το κατάλυμά σας κοντά σε γήπεδο Padel;</p>\n                        </div>\n                        <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Σας συνδέουμε με εξειδικευμένα πόρταλ για Padel</h2>\n                        <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list, .item-wrap\" data-multiline mbr-article mbr-if=\"showContacts\">\n                            <li class=\"item-wrap\">&nbsp;</li>\n                            <li class=\"item-wrap\"><br></li>\n                            <li class=\"item-wrap\">Via Della 5, 00193 Rome, Italy</li>\n                        </ul>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://wa.me/491739541407\" data-app-placeholder=\"Type Text\">Καλέστε μας εδώ μέσω WhatsApp</a></div>\n                    </div>\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1594x1063.webp\" alt>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0 64px",
+                "@media (max-width: 992px)": {
+                  "padding": "0 32px"
+                },
+                "@media (max-width: 768px)": {
+                  "padding": "0 24px"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 992px)": {
+                "padding": "0 32px"
+              },
+              "@media (max-width: 768px)": {
+                "padding": "0 24px"
+              }
+            },
+            ".content-wrapper": {
+              "display": "flex",
+              "border-radius": "2rem !important",
+              "border": "1px solid @border",
+              "background-color": "@container",
+              "overflow": "hidden",
+              "@media (max-width: 992px)": {
+                "display": "block"
+              },
+              ".content-wrap": {
+                "width": "50%",
+                "padding": "150px 64px",
+                "@media (max-width: 1440px)": {
+                  "padding": "150px 32px"
+                },
+                "@media (max-width: 992px)": {
+                  "width": "100%",
+                  "padding": "24px 24px 32px"
+                },
+                ".desc-wrapper": {
+                  ".mbr-desc": {
+                    "display": "inline-flex",
+                    "padding": "2px 10px",
+                    "position": "relative",
+                    "background-color": "@descBg",
+                    "margin-bottom": "16px",
+                    "border-radius": "500px",
+                    "border": "1px solid @borderDesc"
+                  }
+                },
+                ".mbr-section-title": {
+                  "margin-bottom": "32px"
+                },
+                ".list": {
+                  "padding": "0",
+                  "margin": "0 0 22px 0",
+                  "list-style-type": "none",
+                  ".item-wrap": {
+                    "margin-bottom": "16px",
+                    "&:last-child": {
+                      "margin-bottom": "0"
+                    }
+                  }
+                }
+              },
+              ".image-wrapper": {
+                "width": "50%",
+                "@media (max-width: 992px)": {
+                  "width": "100%"
+                },
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover",
+                  "border-radius": "0 !important",
+                  "@media (max-width: 992px)": {
+                    "height": "350px"
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#18212d"
+            },
+            ".mbr-desc": {
+              "color": "#18212d"
+            },
+            ".list": {
+              "color": "#18212d"
+            }
+          },
+          "_cid": "vioI5xRQ7V",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "contacts01-a6"
         },
         {
           "_name": "slider2",
