@@ -13293,93 +13293,9 @@ strong {
 .cid-vioMNy5C8M .mbr-section-btn .btn-white:hover {
   color: #7dabd2 !important;
 }
-.cid-vioN4zUhoG {
-  z-index: 1;
-}
-.cid-vioMNDaQyG {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-.cid-vioMNDaQyG .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-vioMNDaQyG .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-vioMNDaQyG .mbr-section-head {
-  margin-bottom: 75px;
-}
-@media (max-width: 1399px) {
-  .cid-vioMNDaQyG .mbr-section-head {
-    margin-bottom: 60px;
-  }
-}
-@media (max-width: 767px) {
-  .cid-vioMNDaQyG .mbr-section-head {
-    margin-bottom: 30px;
-  }
-}
-.cid-vioMNDaQyG .mbr-section-title {
-  color: #fc7942;
-}
-.cid-vioMNDaQyG .mbr-section-subtitle {
-  margin-top: 18px;
-  color: #131313;
-}
-.cid-vioMNDaQyG .cards-row {
-  row-gap: 40px;
-}
-@media (max-width: 767px) {
-  .cid-vioMNDaQyG .cards-row {
-    row-gap: 30px;
-  }
-}
-.cid-vioMNDaQyG .card {
-  border-radius: 0;
-}
-.cid-vioMNDaQyG .card-wrapper {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-@media (max-width: 1440px) {
-  .cid-vioMNDaQyG .card-wrapper {
-    display: block;
-  }
-}
-.cid-vioMNDaQyG .card-title {
-  color: #FC7942;
-}
-.cid-vioMNDaQyG .card-text {
-  margin-left: 15px;
-  color: #131313;
-}
-.cid-vioMNDaQyG .border-item {
-  width: 100%;
-  height: 2px;
-  margin-top: 58px;
-  background-color: #131313;
-}
-@media (max-width: 1399px) {
-  .cid-vioMNDaQyG .border-item {
-    margin-top: 45px;
-  }
-}
-@media (max-width: 767px) {
-  .cid-vioMNDaQyG .border-item {
-    margin-top: 40px;
-  }
-}
 .cid-vioMNDZ9Dz {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-vioMNDZ9Dz .mbr-fallback-image.disabled {
@@ -13513,6 +13429,9 @@ strong {
   .cid-vioMNDZ9Dz .card-wrapper:hover .iconfont-wrapper .mbr-iconfont {
     transform: rotate(0);
   }
+}
+.cid-vioN4zUhoG {
+  z-index: 1;
 }
 .cid-vioMNKbrPv {
   padding-top: 4rem;
