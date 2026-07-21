@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page9.html",
+    "currentPage": "booking-engine.html",
     "theme": {
       "name": "calmm5",
       "title": "CalmM5",
@@ -15750,7 +15750,7 @@
         }
       ]
     },
-    "page9.html": {
+    "booking-engine.html": {
       "settings": {
         "title": "All in One Booking Engine",
         "meta_descr": "Κατασκευή ιστοσελίδων για ξενοδοχεία, βίλες, διαμερίσματα και τουριστικούς προορισμούς",
