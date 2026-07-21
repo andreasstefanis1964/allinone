@@ -58,7 +58,7 @@
     ],
     "imageResize": true,
     "publishChangesOnly": true,
-    "uniqCompNum": 407,
+    "uniqCompNum": 408,
     "versionPublish": "6.1.16",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -13313,7 +13313,7 @@
           },
           "_name": "afeatures3",
           "_sourceTheme": "calmm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3 calmm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <input type=\"range\" inline title=\"List Count\" name=\"listCount\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showList\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked condition=\"showList\">\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#FC7942\" condition=\"showIcon && showList\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#e2ecf4\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-small': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-items-center justify-content-center\">\n            <div class=\"item-img\">\n                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2026-07-19-um-16.29.21.webp\" alt>\n            </div>\n            <div class=\"item-content\" mbr-if=\"showTitle || showList || showText || showButtons\">\n                <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Aύξηση κρατήσεων&nbsp;</b></h5>\n                <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text, .mbr-section-btn\">Ο επισκέπτης κάνει κράτηση έχοντας πολλές επιλογές τιμών ανάλογα με τις πολιτικές ακυρωτικών, και βέβαια ανάλογα το budget που διαθέτει. Η παρουσίαση του καταλύματος γίνεται με τέτοιο τρόπο, ώστε να προτιμήσει να κάνει την κράτηση απευθείας, απ΄ότι μέσω τοων πόρταλ.<br><br><b>Πλεονεκτήματα για τον ξενοδόχο, διαχειριστή κρατήσεων:</b><br><br><i><b>1. Δωρεάν εγκατάσταση (Setup).&nbsp;</b><br><b>2. Πανεύκολη Διαχείριση του λογισμικού με άμεση διαμόρφωση προσφορών, Extras, vouchers</b></i><br><i><b>3. Προβολή της μηχανής κρατήσεων στην Google και σε γερμανόφωνα πελατολόγια μέσω του ela-greece, κοινωνικών δικτύων, και newsletters&nbsp;</b><br><b>4. Προσαρμογή στα εικαστικά του καταλύματος και της ιστοσελίδας με Brand Kit εργαλεία</b></i><br></p>\n                <div class=\"list-box\" mbr-if=\"showList\">\n                    <div class=\"list-item\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Σύνδεση με τον All in One Channel manager</b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 1\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Online πληρωμές μέσω καρτών (Stripe 1,5%) κλπ.&nbsp;</b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 2\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\">\n                            <b>Προώθηση στην Google με νέο αλγόριθμο</b><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 3\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Αυτόνομη διαχείριση κρατήσεων από τους πελάτες σας</b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 4\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Πολύγλωσση: Αγγλικά, Ελληνικά, Γερμανικά, Ιταλικά,...</b><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 5\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\">\n                            <b>Πωλήσεις Extras, Vouchers, Promotions</b><b><br></b></p>\n                    </div>\n                </div>\n\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"mbrext://smart-cart?cmdsm=_cart&amount=20.00&item_name=RENT%20A%20WEBSITE%20MONTHLY&currency_code=EUR&dataShop=smartCart\" class=\"btn btn-danger\" data-app-placeholder=\"Type Text\">Προμήθεια: 5%*<br></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3 calmm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n        <input type=\"range\" inline title=\"List Count\" name=\"listCount\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showList\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked condition=\"showList\">\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#FC7942\" condition=\"showIcon && showList\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#e2ecf4\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-small': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-items-center justify-content-center\">\n            <div class=\"item-img\">\n                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2026-07-19-um-16.29.21.webp\" alt>\n            </div>\n            <div class=\"item-content\" mbr-if=\"showTitle || showList || showText || showButtons\">\n                <h5 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Aύξηση κρατήσεων&nbsp;</b></h5>\n                <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text, .mbr-section-btn\">Ο επισκέπτης κάνει κράτηση έχοντας πολλές επιλογές τιμών ανάλογα με τις πολιτικές ακυρωτικών, και βέβαια ανάλογα το budget που διαθέτει. Η παρουσίαση του καταλύματος γίνεται με τέτοιο τρόπο, ώστε να προτιμήσει να κάνει την κράτηση απευθείας, απ΄ότι μέσω τοων πόρταλ.<br><br><b>Πλεονεκτήματα για τον ξενοδόχο, διαχειριστή κρατήσεων:</b><br><br><i><b>1. Δωρεάν εγκατάσταση (Setup).&nbsp;</b><br><b>2. Πανεύκολη Διαχείριση του λογισμικού με άμεση διαμόρφωση προσφορών, Extras, vouchers</b></i><br><i><b>3. Προβολή της μηχανής κρατήσεων στην Google και σε γερμανόφωνα πελατολόγια μέσω του ela-greece, κοινωνικών δικτύων, και newsletters&nbsp;</b><br><b>4. Προσαρμογή στα εικαστικά του καταλύματος και της ιστοσελίδας με Brand Kit εργαλεία</b></i><br></p>\n                <div class=\"list-box\" mbr-if=\"showList\">\n                    <div class=\"list-item\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Σύνδεση με τον All in One Channel manager</b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 1\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Online πληρωμές μέσω καρτών (Stripe 1,5%) κλπ.&nbsp;</b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 2\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\">\n                            <b>Προώθηση στην Google με νέο αλγόριθμο</b><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 3\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Αυτόνομη διαχείριση κρατήσεων από τους πελάτες σας</b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 4\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\"><b>Πολύγλωσση: Αγγλικά, Ελληνικά, Γερμανικά, Ιταλικά,...</b><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"listCount > 5\">\n                        <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n                        </div>\n                        <p class=\"list-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".list-text\">\n                            <b>Πωλήσεις Extras, Vouchers, Promotions</b><b><br></b></p>\n                    </div>\n                </div>\n\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"mbrext://smart-cart?cmdsm=_cart&amount=20.00&item_name=RENT%20A%20WEBSITE%20MONTHLY&currency_code=EUR&dataShop=smartCart\" class=\"btn btn-danger\" data-app-placeholder=\"Type Text\">Προμήθεια: 5%*<br></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "vpPpLjaon3",
           "_anchor": "afeatures3-as",
           "_protectedParams": [],
@@ -13943,6 +13943,113 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer"
+            },
+            "& when not (@spacing)": {
+              ".grid-container": {
+                "grid-row-gap": "0"
+              },
+              ".grid-container-1, .grid-container-2, .grid-container-3": {
+                "gap": "0"
+              }
+            },
+            "& when (@spacing)": {
+              ".grid-container": {
+                "grid-row-gap": "24px"
+              },
+              ".grid-container-1, .grid-container-2, .grid-container-3": {
+                "gap": "0 24px"
+              }
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "70px",
+              "@media (max-width: 1500px)": {
+                "margin-bottom": "40px"
+              },
+              "@media (max-width: 991px)": {
+                "margin-bottom": "20px"
+              },
+              "color": "#fc7942",
+              "text-align": "center"
+            },
+            ".content-head": {
+              "max-width": "800px"
+            },
+            ".container, .container-fluid": {
+              "overflow": "hidden"
+            },
+            ".container-fluid": {
+              "max-width": "100%"
+            },
+            ".grid-container": {
+              "display": "grid",
+              "transform": "translate3d(-3rem, 0, 0)",
+              "width": "115vw",
+              "grid-column-gap": "1rem"
+            },
+            ".grid-item": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "padding": "11px",
+              "border": "2px solid @cardBorder",
+              "box-shadow": "4px 4px 0 @cardBorder",
+              "margin-bottom": "4px"
+            },
+            ".grid-item img": {
+              "@media (max-width: 767px)": {
+                "min-width": "35vw",
+                "height": "160px"
+              },
+              "min-width": "30vw",
+              "max-width": "100%",
+              "height": "350px",
+              "object-fit": "cover"
+            },
+            ".grid-container-1, .grid-container-2, .grid-container-3": {
+              "display": "grid",
+              "grid-template-columns": "repeat(4, 1fr)",
+              "grid-auto-columns": "1fr",
+              "grid-auto-flow": "column"
+            },
+            ".grid-container-1": {
+              "align-items": "flex-end"
+            },
+            ".grid-container-2": {
+              "align-items": "flex-start"
+            }
+          },
+          "_name": "agallery4",
+          "_sourceTheme": "calmm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"gallery4 calmm5\" group=\"Gallery & Slider\" plugins=\"scrollGallery\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\">\n        <input type=\"checkbox\" title=\"Reverse direction\" name=\"movingLeft\" checked>\n        <input type=\"color\" title=\"Card Border\" name=\"cardBorder\" value=\"#e2ecf4\">\n        <header>Background</header>\n        <fieldset type=\"background\" parallax name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#e2ecf4\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container-fluid gallery-wrapper\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 content-head\">\n                <div class=\"mbr-section-head\">\n                    <h4 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                        <b>Δείτε μερικές από τις μηχανές κρατήσεων σε δράση.</b>\n                    </h4>\n                </div>\n            </div>\n        </div>\n        <div class=\"grid-container\">\n            <div class=\"grid-container-3\" mbr-class=\"{'moving-left': movingLeft}\" style=\"transform: translate3d(-200px, 0px, 0px);\">\n                <div class=\"grid-item\">\n                    <a href=\"https://book.roompanda.com/c/all-about-paxos\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2026-07-21-um-22.21.28.webp\" alt></a>\n                </div>\n                <div class=\"grid-item\">\n                    <a href=\"https://celininaxos.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2026-07-21-um-22.19.37.webp\" alt></a>\n                </div>\n                <div class=\"grid-item\">\n                    <a href=\"https://book.roompanda.com/ktima-drili-villas-naxos?adults=2\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2026-07-21-um-22.18.35.webp\" alt></a>\n                </div>\n                <div class=\"grid-item\">\n                    <a href=\"https://book.roompanda.com/captain-suite?adults=2\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2026-07-21-um-22.17.36.webp\" alt></a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "vq2Ahn93UV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "agallery4-bb"
         },
         {
           "_name": "map02",
